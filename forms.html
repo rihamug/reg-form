@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RESTRIGATION FORM</title>
+	<link rel="stylesheet" type="text/css" href="stylesss.css">
+	
+</head>
+<body>
+
+	<p><h1>REGISTRATION FORM</h1></p>
+	<!-- beginning of form-->
+<section>
+	<form>
+		<fieldset>
+			<legend>Bio Data</legend>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="fname" placeholder="Enter First Name" required><br><br>
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lname" placeholder="Enter Last Name" required><br><br>
+			<label for="dob">Date of Birth</label>
+			<input type="date" id="dob" name="dob"><br><br>
+			<label for="hdistrict">Home District</label>
+			<input type="text" id="hdistrict" name="hdistrict"><br><br>
+			<p><b>Gender</b></p>
+			<input type="radio" id="sex" name="sex" value="male">
+			<label for="sex">Male</label>
+			<input type="radio" id="sex" name="sex" value="female">
+			<label for="sex">Female</label><br><br>
+			<label for="mom">Mother's Name</label>
+			<input type="text" id="mom" name="mom" placeholder="Enter Mother's Name"><br><br>
+			<label for="dad">Father's Name</label>
+			<input type="text" id="dad" name="dad" placeholder="Enter Father's Name"><br><br>
+		</fieldset>
+		<hr>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="address">Address</label>
+			<input type="text" id="address" name="address" placeholder="Enter address" required><br><br>
+			<label for="telephone">Phone Number</label>
+			<input type="text" id="telephone" name="telephone" required><br><br>
+			<label for="job">Occupation</label>
+			<input type="text" id="job" name="job" placeholder="Enter current occupation" required><br><br>
+			<b><p>Marital Status</p></b>
+			<input type="radio" id="marry" name="marry" value="Yes" >
+			<label for="marry">Yes</label>
+			<input type="radio" name="marry" value="No">
+			<label for="marry">No</label><br><br>
+			<h4>Nationality</h4>
+			<input list="countries" name="country">
+			<datalist id="countries">
+			<option value="Ugandan">
+			<option value="Kenyan">
+			<option value="Tanzanian">
+			<option value="Rwandan">
+			</datalist>
+		</fieldset>
+		<hr>
+		<fieldset>
+			<legend>Educational Background</legend>
+			<h4>UCE</h4>
+			<input type="radio" name="uce">
+			<label for="uce">Yes</label>
+			<input type="radio" name="uce">
+			<label for="uce">No</label><br><br>
+			<label for="uceschool">UCE SCHOOL NAME</label>
+			<input type="text" id="uceschool" name="uceschool"><br><br>
+			<label for="uceyear">YEAR FINISHED</label>
+			<input type="text" id="uceyear"name="uceyear"><br><br>
+			<label for="cetificate">UCE CERTIFICATE</label>
+			<input type="text" id="certificate" name="certificate"><br><br>
+			<h4>UACE</h4>
+			<input type="radio" name="uace">
+			<label for="uace">Yes</label>
+			<input type="radio" name="uace">
+			<label for="uace">No</label><br><br>
+			<label for="uaceschool">UACE SCHOOL NAME</label>
+			<input type="text" id="uaceschool" name="uaceschool"><br><br>
+			<label for="uaceyear">YEAR FINISHED</label>
+			<input type="text" id="uaceyear"name="uaceyear"><br><br>
+			<label for="cetificate">UACE CERTIFICATE</label>
+			<input type="text" id="certificate" name="certificate"><br><br>
+			<h4>UNIVERSITY</h4>
+			<label for="campus">Campus</label>
+			<input type="text" id="campus" name="campus"><br><br>
+			<label for="course">COURSE</label>
+			<input type="text" id="course" name="course"><br><br>
+		</fieldset>
+		<input type="submit" name="submit">
+	</form>
+</section>
+
+
+</body>
+</html>
